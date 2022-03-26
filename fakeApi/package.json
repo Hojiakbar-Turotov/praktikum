@@ -1,0 +1,19 @@
+{
+  "name": "fakeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch fakeApi.json",
+    "dev": "json-server --watch fakeApi.json",
+    "devStart": "json-server --watch fakeApi.json",
+    "devApi": "json-server --watch dev.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
